@@ -3,24 +3,31 @@ header {
     background: ;
 }
 
+a {
+    text-decoration: none;
+}
+a:link {color: #ef857d;}
+a:hover {color: #ef857d;}
+a:visited {color: #ef857d;}
+
+li {
+    list-style-image: url("../images/dj_icon.png");
+}
+
 body{
-    color: #cccccc;
+    color: #6c3524;
+    font-family: "Osaka-Mono";
+    background-image: url("../images/dj_bg.gif");
 }
 
 main {
     margin: 10px 10px 10px 100px;
 }
 
-section {
-}
-
 .favorite {
-  color: orange;
+  color: #ef857d;
 }
 
 .boo {
-  color: blue;
-}
-
-#name {
+  color: #88b5d3;
 }
